@@ -4,6 +4,7 @@ import HomeImage from './components/HomeImage';
 import Section1 from './Pages/Section1';
 import Section2 from './Pages/Section2';
 import Section3 from './Pages/Section3';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
      <Section1/>
      <Section2/>
      <Section3/>
+     <Footer/>
     </div>
 
   )

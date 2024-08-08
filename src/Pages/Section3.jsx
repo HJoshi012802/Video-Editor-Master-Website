@@ -1,5 +1,6 @@
 import Polygon from "/public/GhantaPolygon.png";
 import twophone from "/public/onephone.png";
+import star from "/public/star.svg"
 
 export default function Section3() {
   return (
@@ -16,34 +17,28 @@ export default function Section3() {
   </div>
   <div className="  w-[55vw] mt-[80px] pl-[10rem] pr-[5rem] float-right border border-red-900">
     <p className="text-6xl font-bold border border-red-900">
-      <span
-        className="text-transparent bg-clip-text"
-        style={{
-          backgroundImage:
-            "linear-gradient(89deg, #0099F1 0%, #FFE000 32.29%, #ACFCD9 65.63%, #0FE2CD 100%)",
-        }}
-      >
-        Professionals
-      </span><br/>
-      have picked.
-    </p>
-    <div className="w-[80%]">
-    {/* <p
+    Accessible to<br/>
+    <span
+  className="text-transparent bg-clip-text"
   style={{
-    color: '#B4C1CB',
-    fontFamily: 'Helvetica, Arial, sans-serif',
-    fontSize: '20px',
-    fontStyle: 'normal',
-    fontWeight: '400',
-    lineHeight: '28px',
-    marginTop:'10px'
+    backgroundImage:
+      "linear-gradient(89deg, #E9428A 0%, #E28BC1 32.29%, #9463DF 65.63%, #0FE2CD 100%)",
   }}
 >
-  Experience the prowess of a master video editor right at your fingertips.
-  When top content creators and influencers want their videos to shine on
-  social media, they trust Video Editor Master.
-</p> */}
-    <p  style={{
+  Available
+</span>
+
+    </p>
+    <div className="w-[80%] border border-red-900 flex">
+    <div className=" w-[50%]">
+     <img src={star} />
+    </div>
+    <p>4.0 Rating on the Google
+    Play Store</p>
+    </div>
+   
+    
+    <p className="w-[80%] border border-red-900" style={{
     color: '#B4C1CB',
     fontFamily: 'Helvetica, Arial, sans-serif',
     fontSize: '20px',
@@ -52,7 +47,7 @@ export default function Section3() {
     lineHeight: '28px',
     marginTop:'10px'
   }}>The Video Editor Master’s remarkably intuitive design makes video editing easy for everyone. With powerful tools that go beyond professional use, even beginners can quickly create and share stunning videos.</p>
-    </div>
+    
   
   </div>
 </div>
