@@ -1,25 +1,25 @@
-import Polygon from "/public/GhantaPolygon.png";
+import Polygon from "/public/GhantaPolygon.svg";
 import twophone from "/public/onephone.png";
 import star from "/public/star.svg"
 
 export default function Section3() {
   return (
-    <div className="border relative w-full h-[75vh]">
-  <div className="absolute left-0 top-0 -z-20">
+  <div className=" relative w-full md:h-[78vh]  mt-[50px] mb-[30px]">
+  <div className="hidden md:block md:absolute md:left-0 md:top-0 md:-z-20">
     <img src={Polygon} alt="Ellipse" className="h-full w-[25vw] object-cover" />
   </div>
-  <div className="absolute left-[9%] mt-[40px]">
+  <div className="flex justify-center md:block md:absolute md:left-[9%] mt-[40px]">
     <img
       src={twophone}
       alt="video editor master rareprob"
-      className=" h-full w-[25vw] object-cover"
+      className=" h-full w-[70vw] md:w-[25vw] object-cover"
     />
   </div>
-  <div className="  w-[55vw] mt-[80px] pl-[10rem] pr-[5rem] float-right border border-red-900">
-    <p className="text-6xl font-bold border border-red-900">
-    Accessible to<br/>
+  <div className=" md:w-[55vw] mt-[80px] pl-[1rem] pr-[1rem] md:pl-[5rem] lg:pl-[10rem] md:pr-[2.5rem] lg:pr-[5rem] md:float-right text-center md:text-left">
+    <p className=" text-[1.8rem]  md:text-4xl lg:text-6xl font-bold">
+    <span className="pr-[0.6rem]">Accessible to</span><br className="hidden md:block"/>
     <span
-  className="text-transparent bg-clip-text"
+  className="text-transparent bg-clip-text "
   style={{
     backgroundImage:
       "linear-gradient(89deg, #E9428A 0%, #E28BC1 32.29%, #9463DF 65.63%, #0FE2CD 100%)",
@@ -29,16 +29,17 @@ export default function Section3() {
 </span>
 
     </p>
-    <div className="w-[80%] border border-red-900 flex">
-    <div className=" w-[50%]">
+    <div className="flex justify-center md:justify-start my-4">
+    <div className="w-[80%] flex gap-10 ">
+    <div className=" flex items-center">
      <img src={star} />
     </div>
     <p>4.0 Rating on the Google
     Play Store</p>
     </div>
+    </div>
    
-    
-    <p className="w-[80%] border border-red-900" style={{
+    <p className="md:w-[80%]" style={{
     color: '#B4C1CB',
     fontFamily: 'Helvetica, Arial, sans-serif',
     fontSize: '20px',

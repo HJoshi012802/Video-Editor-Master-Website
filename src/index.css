@@ -30,5 +30,8 @@ body {
   min-height: 100vh;
 }
 
-
+li p {
+  margin: 0;
+  padding: 0;
+}
 
