@@ -6,7 +6,7 @@ import Section2 from './Pages/Section2';
 import Section3 from './Pages/Section3';
 import Footer from './components/Footer';
 import Glass3D from './Pages/Glass3D';
-
+import Crousel from './components/Crousel';
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
      <HomeImage/>
     </div>
      <Section1/>
+     <Crousel/>
      <Section2/>
      <Section3/>
      <Glass3D/>
