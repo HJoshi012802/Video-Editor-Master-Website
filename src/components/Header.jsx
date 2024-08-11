@@ -2,7 +2,7 @@ import video_master from "../../public/video_master.jpg";
 
 export default function Header() {
   return (
-    <div className='bg-[#121315] w-[100vw] h-[4.8rem] px-[1rem] lg:px-[6rem] sticky top-0 left-0 z-10 border-b border-[#2f353f]'>
+    <div className='bg-[#121315] w-[100vw] h-[4.3rem] px-[1rem] lg:px-[6rem] sticky top-0 left-0 z-10 border-b border-[#2f353f]'>
         <div className='x-[2rem] h-[100%]  flex justify-between items-center'>
             <div className="flex gap-[0.5rem] items-center ">
             <div className="h-[2.5rem] w-[2.5rem] rounded-xl overflow-hidden">

@@ -1,5 +1,5 @@
+
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -16,7 +16,8 @@ import slide_image_7 from '/public/Image7.png';
 
 export default function Crousel() {
   return (
-    <div className="container border border-red-900">
+    <div className="max-w-screen-xl px-4 py-8 mx-auto">
+      <h2 className="text-center text-4xl mb-4">Carousel Heading</h2>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -36,32 +37,24 @@ export default function Crousel() {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
+        className="h-[52rem] py-8 relative"
       >
-        <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_4} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_5} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_6} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_7} alt="slide_image" />
-        </SwiperSlide>
+        {[slide_image_1, slide_image_2, slide_image_3, slide_image_4, slide_image_5, slide_image_6, slide_image_7].map((image, index) => (
+          <SwiperSlide key={index} className="w-[37rem] h-[42rem] relative">
+            <img
+              src={image}
+              alt={`slide_image_${index + 1}`}
+              className="w-[37rem] h-[42rem] rounded-2xl object-cover"
+            />
+          </SwiperSlide>
+        ))}
 
-       
+        <div className="swiper-pagination relative w-[15rem] bottom-4" />
+        <div className="slider-controler flex justify-center items-center absolute bottom-8 w-full">
+          <div className="swiper-button-prev swiper-arrow bg-white w-14 h-14 rounded-full filter drop-shadow-lg left-[42%] transform translate-x-[-42%] md:left-[30%] md:translate-x-[-30%] sm:left-[20%] sm:translate-x-[-20%]"></div>
+          <div className="swiper-button-next swiper-arrow bg-white w-14 h-14 rounded-full filter drop-shadow-lg left-[58%] transform translate-x-[-58%] md:left-[70%] md:translate-x-[-70%] sm:left-[80%] sm:translate-x-[-80%]"></div>
+        </div>
       </Swiper>
     </div>
-  )
+  );
 }

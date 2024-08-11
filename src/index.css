@@ -38,7 +38,7 @@ body {
   min-height: 100vh;
 }
 
-.container {
+/* .container {
   max-width: 124rem;
   padding: 4rem 1rem;
   margin: 0 auto;
@@ -160,4 +160,4 @@ body {
 
 .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
-}
+} */

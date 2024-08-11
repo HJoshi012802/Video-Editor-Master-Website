@@ -42,7 +42,7 @@ export default function Section3() {
     <p className="md:w-[80%]" style={{
     color: '#B4C1CB',
     fontFamily: 'Helvetica, Arial, sans-serif',
-    fontSize: '20px',
+    fontSize: '18px',
     fontStyle: 'normal',
     fontWeight: '400',
     lineHeight: '28px',

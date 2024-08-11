@@ -12,7 +12,7 @@ import Glass3D from './Pages/Glass3D';
 function App() {
   return (
     <div className=''>
-    <div className="relative w-[100vw] h-[100vh] md:h-[106vh] ">
+    <div className="relative w-[100vw] h-[100vh] md:h-[109vh] ">
       <video
         autoPlay
         loop
