@@ -10,9 +10,12 @@ export default function Header() {
             </div>
             <p className="font-bold ">Video Master Editor</p>
             </div>
-            <button className=" font-[600] px-[1rem] py-[0.35rem] rounded-full flex justify-center items-center text-[#dad3d3]" style={{ background: 'linear-gradient(180deg, #6751FF 0%, #E74F94 100%)' }}>
+            <a
+            href="https://play.google.com/store/apps/details?id=com.videomaster.editor">
+             <button className=" font-[600] px-[1rem] py-[0.35rem] rounded-full flex justify-center items-center text-[#dad3d3]" style={{ background: 'linear-gradient(180deg, #6751FF 0%, #E74F94 100%)' }}>
               Get the App
             </button>
+            </a>
         </div>
     </div>
   )
