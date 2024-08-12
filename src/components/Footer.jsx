@@ -1,9 +1,9 @@
-import video_master from "../../public/video_master.jpg";
-import tiktok from "../../public/tiktok.png";
-import facebook from "../../public/facebook.png";
-import instagram from "../../public/instagram.png";
-import youtube from "../../public/youtube.png";
-import help from "../../public/Help.svg";
+import video_master from "/public/video_master.jpg";
+import tiktok from "/public/tiktok.png";
+import facebook from "/public/facebook.png";
+import instagram from "/public/instagram.png";
+import youtube from "/public/youtube.png";
+import help from "/public/Help.svg";
 
 export default function Footer() {
   return (
