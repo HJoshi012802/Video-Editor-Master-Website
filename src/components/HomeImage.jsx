@@ -1,4 +1,4 @@
-import home_image from "../../public/home_image.png";
+import home_image from "/public/home_image.png";
 
 export default function HomeImage() {
   return (

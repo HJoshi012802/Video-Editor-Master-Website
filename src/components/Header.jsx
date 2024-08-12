@@ -1,4 +1,4 @@
-import video_master from "../../public/video_master.jpg";
+import video_master from "/public/video_master.jpg";
 
 export default function Header() {
   return (
