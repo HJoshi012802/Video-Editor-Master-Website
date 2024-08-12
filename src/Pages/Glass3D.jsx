@@ -1,4 +1,4 @@
-import Morph from "/public/3DMorph.png";
+import Morph from "../assets/3DMorph.png";
 import PlayStore from "../components/PlayStore";
 
 export default function Glass3D() {

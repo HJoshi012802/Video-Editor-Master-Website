@@ -6,13 +6,13 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import slide_image_1 from '/public/Image1.jpg';
-import slide_image_2 from '/public/Image2.png';
-import slide_image_3 from '/public/Image3.png';
-import slide_image_4 from '/public/Image4.png';
-import slide_image_5 from '/public/Image5.png';
-import slide_image_6 from '/public/Image6.png';
-import slide_image_7 from '/public/Image7.png';
+import slide_image_1 from '../../assets/Image1.jpg';
+import slide_image_2 from '../assets/Image2.png';
+import slide_image_3 from '../assets/Image3.png';
+import slide_image_4 from '../assets/Image4.png';
+import slide_image_5 from '../assets/Image5.png';
+import slide_image_6 from '../assets/Image6.png';
+import slide_image_7 from '../assets/s/s/Image7.png';
 
 export default function Crousel() {
   return (

@@ -1,5 +1,5 @@
-import Ellipse from "/public/Ellipse.svg";
-import twophone from "/public/twophone.png";
+import Ellipse from "../assets/Ellipse.svg";
+import twophone from "../assets/twophone.png";
 
 export default function Section2() {
   return (

@@ -1,6 +1,6 @@
-import Polygon from "/public/GhantaPolygon.svg";
-import twophone from "/public/onephone.png";
-import star from "/public/star.svg"
+import Polygon from "../assets/GhantaPolygon.svg";
+import twophone from "../assets/onephone.png";
+import star from "../assets/star.svg"
 
 export default function Section3() {
   return (
