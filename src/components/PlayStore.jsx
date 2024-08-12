@@ -1,5 +1,5 @@
 
-import play from "../assets/play.svg";
+import play from "../assets/Play.svg";
 
 export default function PlayStore() {
   return (
