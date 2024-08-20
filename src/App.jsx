@@ -6,6 +6,7 @@ import Section2 from './Pages/Section2';
 import Section3 from './Pages/Section3';
 import Footer from './components/Footer';
 import Glass3D from './Pages/Glass3D';
+import video from './assets/hero_video.webm';
 // import Crousel from './components/Crousel';
 
 
@@ -18,7 +19,7 @@ function App() {
         loop
         muted
         className="absolute w-full h-full object-cover top-0 left-0 -z-10  bg-gradient-to-t from-black via-transparent to-black opacity-40">
-        <source src="/hero_video.webm" type="video/webm" />
+        <source src={video} type="video/webm" />
       </video>
      <Header />
      <HeroText />
